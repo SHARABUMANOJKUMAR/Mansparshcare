@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansparshcare – Online Mental Wellness</title>
+    <link rel="icon"
+        href="https://res.cloudinary.com/dcgppqjzk/image/upload/v1770992146/Screenshot_2026-02-13_183045_kmjk3s.png">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Three.js & tsParticles -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-bar"></div>
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="https://res.cloudinary.com/dcgppqjzk/image/upload/v1770992146/Screenshot_2026-02-13_183045_kmjk3s.png"
+                    alt="Mansparshcare Logo" loading="lazy" decoding="async">
+                Mansparshcare
+            </a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary" style="padding: 8px 20px;">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Theme Toggle -->
+    <div class="theme-customizer">
+        <button class="theme-btn" id="theme-toggle">🌙</button>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-center-logo">
+            <img src="https://res.cloudinary.com/dcgppqjzk/image/upload/v1770992146/Screenshot_2026-02-13_183045_kmjk3s.png"
+                alt="Mansparshcare Logo">
+        </div>
+        <div class="container">
+            <div class="hero-content reveal">
+                <h1>Where Your Mind Finds <br> <span style="color: var(--accent-color);">Healing & Peace</span></h1>
+                <p>Experience ultra-premium mental wellness care with top psychologists. Your journey to a calmer mind
+                    starts here.</p>
+                <div class="cta-group">
+                    <a href="contact.html" class="btn btn-primary">Start Healing</a>
+                    <a href="about.html" class="btn btn-glass">Meet Therapist</a>
+                </div>
+            </div>
+
+    </header>
+
+    <!-- Meet Therapist Preview -->
+    <section class="section">
+        <div class="container">
+            <div class="glass card reveal meet-therapist-container">
+                <div class="therapist-img-container">
+                    <!-- Placeholder for User's actual image if available, using generic for now -->
+                    <img src="https://res.cloudinary.com/dcgppqjzk/image/upload/f_auto,q_auto/v1770894970/WhatsApp_Image_2026-02-12_at_01.46.03_mxazsm.jpg"
+                        alt="Mansparshcare Therapist Image" style="width: 1000px; height: auto; border-radius: 10px;">
+                </div>
+                <div class="therapist-info">
+                    <h2>Meet <span style="color: var(--primary-color);">B. Mounika</span></h2>
+                    <p>Lead Psychologist at Mansparshcare. Dedicated to providing compassionate, evidence-based therapy
+                        tailored to your unique needs.</p>
+                    <div style="margin: 20px 0;">
+                        <span class="skill-badge">CBT</span>
+                        <span class="skill-badge">Mindfulness</span>
+                        <span class="skill-badge">Trauma Therapy</span>
+                        <span class="skill-badge">Anxiety Expert</span>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">View Full Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Treat -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center reveal" style="margin-bottom: 3rem;">What We Treat</h2>
+            <div class="cards-grid">
+                <div class="glass card reveal">
+                    <div class="card-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Anxiety & Stress</h3>
+                    <p>Overcome panic attacks, social anxiety, and chronic stress with proven techniques.</p>
+                </div>
+                <div class="glass card reveal">
+                    <div class="card-icon"><i class="fas fa-cloud-rain"></i></div>
+                    <h3>Depression</h3>
+                    <p>Find light in the darkness. We provide support for managing and overcoming depression.</p>
+                </div>
+                <div class="glass card reveal">
+                    <div class="card-icon"><i class="fas fa-heart-broken"></i></div>
+                    <h3>Relationship Issues</h3>
+                    <p>Heal from breakups, improve communication, and build stronger connections.</p>
+                </div>
+
+                <div class="glass card reveal">
+                    <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Work Stress</h3>
+                    <p>Navigate burnout, career transitions, and workplace challenges.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Preview -->
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="reveal">Your Journey to Healing</h2>
+            <div class="timeline reveal" style="margin-top: 3rem;">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>1. Book Session</h3>
+                        <p>Choose a time that works for you using our easy booking system.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2. Connect</h3>
+                        <p>Join a secure video or audio call with your therapist.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>3. Heal & Grow</h3>
+                        <p>Receive personalized guidance and start feeling better.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 3rem;">
+                <a href="how-it-works.html" class="btn btn-primary">See Detailed Process</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section">
+        <div class="container">
+
+            <div class="premium-pricing-card reveal text-center">
+
+                <p class="pricing-subtitle">Your mental peace is worth it</p>
+
+                <h2 class="pricing-title">Invest in Your Wellbeing</h2>
+
+                <p class="pricing-starting">Starting at</p>
+
+                <h1 class="pricing-amount">
+                    ₹999 <span>/ session</span>
+                </h1>
+
+                <ul class="pricing-features">
+                    <li>45-minute personalized session</li>
+                    <li>Safe & confidential space</li>
+                    <li>Practical tools for real change</li>
+                </ul>
+
+                <a href="contact.html" class="btn btn-primary" style="margin-top: 30px;">
+                    Book Your Session
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Emotional Quote -->
+    <section class="section text-center">
+        <div class="container">
+            <blockquote class="reveal" style="font-size: 1.5rem; font-style: italic; max-width: 800px; margin: 0 auto;">
+                "Your mental health is a priority. Your happiness is an essential. Your self-care is a necessity."
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Call Now Floating Button -->
+    <a href="tel:+916309009096" class="floating-call-btn blur-in" aria-label="Call Now">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://res.cloudinary.com/dcgppqjzk/image/upload/v1770992146/Screenshot_2026-02-13_183045_kmjk3s.png"
+                            alt="Mansparshcare Logo">
+                        <h3>Mansparshcare</h3>
+                    </div>
+                    <p>Your sanctuary for mental healing and growth.</p>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Book Appointment</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Contact</h3>
+                    <p>Email: Mansparshcare@gmail.com</p>
+                    <p>Phone: +91 63090 09096</p>
+                    <p>Location: Tirupati</p>
+                </div>
+
+                <div>
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                <p>&copy; 2024 Mansparshcare. All rights reserved.</p>
+                <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 5px;">Developed by Shivashakthi IT Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Simple GSAP-like reveal for title letters (optional vanilla JS implementation)
+        const title = document.querySelector('.hero h1');
+        // Initial simple animation via CSS is already handled by 'reveal' class on load
+    </script>
+</body>
+
+</html>
