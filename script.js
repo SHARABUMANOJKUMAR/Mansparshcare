@@ -108,9 +108,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Google Sheets Form Submission ---
     const form = document.getElementById("bookingForm");
     if (form) {
-        const scriptURL = "https://script.google.com/macros/s/AKfycbzet52Q4rrd1mWiYTaLyV4RtTt-VMjhF7FUjAgzfS3tjq6CW1AyzV6uQAXA0ew0xOw/exec";
+        const scriptURL = "https://script.google.com/macros/s/AKfycbzet52Q4rrdshivashakthimWiYTaLyV4RtTt-VMjhF7FUjAgzfS3tjq6CW1AyzV6uQAXA0ew0xOw/exec";
 
-        form.addEventListener("submit", function (e) {
+        form.addEventListener("submit", function (e) 
             e.preventDefault();
 
             const submitBtn = form.querySelector("button[type='submit']");
@@ -163,3 +163,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
